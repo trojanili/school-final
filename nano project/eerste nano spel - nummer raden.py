@@ -1,5 +1,5 @@
 import random
-`
+
 maxGetal = 200
 getal = random.randint(1, maxGetal)
 pogingen = 8
@@ -15,7 +15,7 @@ def gokken():
             print('Het getal is hoger.')
         elif gok > getal:
             print('Het getal is lager.')
-    print(f'helaas, volgende keer beter!')
+    print('helaas, volgende keer beter!')
 
 
 while True:
@@ -24,5 +24,5 @@ while True:
     print('psstt, ik zal je een beetje helpen')
     gokken()
 
-
 # durf je het nog keer te proberen 'ja' of 'nee'
+# menu met moeilijkheidsgraad
